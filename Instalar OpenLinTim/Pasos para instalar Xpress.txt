@@ -1,0 +1,20 @@
+Ejecutar en el Debian los siguientes comandos:
+
+-sudo mv ~/Descargas/xp9.2.0_linux_x86_64_setup.tar /opt/
+-cd /opt/
+-sudo tar xf xp9.2.0_linux_x86_64_setup.tar
+-cd xp9.2.0_linux_x86_64_setup
+-sudo ./install.sh
+-s
+
+Instalación Parche:
+
+sudo chown -R usuario Descargas/
+sudo chgrp -R usuario Descargas/
+
+cd Descargas/
+gunzip xp9.2.9_linux_x86_64.tar.gz
+sudo mv ~/Descargas/xp9.2.9_linux_x86_64.tar /opt/xpressmp
+cd /opt/xpressmp
+sudo tar xf xp9.2.9_linux_x86_64.tar
+sudo rm -r xp9.2.9_linux_x86_64.tar
